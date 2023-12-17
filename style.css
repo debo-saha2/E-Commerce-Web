@@ -1,0 +1,26 @@
+.navbar-dark,
+.navbar[data-bs-theme="dark"] {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 66px;
+}
+.card img {
+  height: 250px;
+}
+@media only screen and (max-width: 1225px) {
+  .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 645px) {
+  .box {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
